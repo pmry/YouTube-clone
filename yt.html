@@ -10,7 +10,7 @@
     <!-- Header Section -->
     <header class="YouTube-header">
   <div class="left-section">
-    <button class="menu-button">Menu</button>
+    <button id="menu-btn" class="hamburger-btn">Menu</button>
     <img src="logo.png" alt="YouTube Logo" class="logo-image">
   </div>
   <div class="center-section">
@@ -28,13 +28,40 @@
 
     </header>
 
-    <!-- Sidebar Section -->
-    <div class="sidebar">                   
-    </div>
+    <!-- Navigation Bar Section -->
+    <!--<nav class="navigation-bar">  
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Subscriptions</a></li>
+            <li><a href="#">Library</a></li>
+        </ul>
+    </nav>/
 
     <!-- Main Content Section -->
-    <div class="main-content">
-        
+    <div class="container">
+       <!-- Sidebar Section -->
+    <aside class="sidebar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Subscriptions</a></li>
+            <li><a href="#">Library</a></li>
+        </ul>
+    </aside>
+        <main class="main-content">
+            <div class="video-card">
+                <img src="thumbnail.jpg" alt="Video Thumbnail" class="video-thumbnail">
+                <h3 class="video-title">Sample Video Title</h3>
+                <p class="video-description">This is a sample video description.</p>
+                <div class="video-stats">
+                    <span class="views">1M views</span>
+                    <span class="date">1 week ago</span>
+                </div>
+            </div>
+            <!-- Repeat video-card for more videos -->
+        </main>
+
     </div>
 
     <!-- Footer Section -->

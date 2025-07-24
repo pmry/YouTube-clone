@@ -18,9 +18,53 @@ header {
     padding: 0 20px;
 }
 
+.hamburger-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+   margin-right: 15px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+}
+
+
+.sidebar {
+    width: 200px;
+    background-color: #181818;
+    padding: 20px;
+    transition: width 0.3s;
+    overflow: hidden;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar li {
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.sidebar li :hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.sidebar.collapsed {
+    width: 60px;
+}
+main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+}
 .footer {
     background-color: #338129;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 10px;
     position: fixed;
