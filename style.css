@@ -26,6 +26,8 @@ ul {
   background-color: white;
   position: sticky;
   top: 0;
+  z-index: 100;
+ 
 }
 
 /* Header Left */
@@ -135,7 +137,6 @@ ul {
   display: flex;
   align-items: center;
   padding: 8px;
-  border-radius: 8px;
   cursor: pointer;
   gap: 16px;
 }
@@ -169,6 +170,7 @@ ul {
 /* Category Bar */
 .category-bar {
   display: flex;
+  overflow-x: auto;
   gap: 8px;
   padding-bottom: 12px;
   margin-bottom: 16px;
@@ -191,7 +193,7 @@ ul {
 .main-content {
   display: grid;
   grid-template-columns: 300px 300px 300px;
-  gap: 16px;
+  gap: 45px;
 }
 
 /* Video Card */
@@ -234,7 +236,7 @@ ul {
 .video-card2 {
   width: 343px;
   height: 321px;
-  margin-left: 20px;
+  margin-left: 70px;
   background-color: #fff;
   overflow: hidden;
   display: flex;
@@ -250,4 +252,3 @@ ul {
   text-align: center;
   background-color: #f1f1f1;
 }
-
